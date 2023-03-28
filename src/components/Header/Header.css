@@ -1,0 +1,84 @@
+.header {
+    margin: 0;
+    background-color: #131921;
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    column-gap: 2rem;
+}
+.left__header{
+    display: flex;
+}
+.header__logo {
+    background-color: #131921;
+    background: transparent;
+    height: 30px;
+    margin: 15px 0 0 12px;
+}
+.home:hover{    
+    border: 1px solid #fff;   
+    /* this is to hover on logo */
+}
+.header__location {
+    color: #fff;
+    text-decoration: none;
+    width: 150px;
+    padding: 10px 0 0 5px;
+    display: flex;
+    column-gap: 0.4rem;
+    font-size: large;
+    margin-left: 1.5rem;
+     
+}
+.header__location:hover{
+    border: 1px solid #fff;
+}
+.search__div {
+    display: flex;
+    align-items: center;
+    margin:0  20px 0 10px;
+}
+.search__input {
+    width: 40rem;
+    height: 30px;
+    padding: 0 22px 0 16px;
+    font-weight: 600;
+    outline: none;
+}
+.search__button {
+    color: white;
+    background-color: #F3A847;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    border-radius: 0 0.23rem 0.23rem 0;
+    color: black;
+    
+}
+
+.right__header {
+    float: right;
+    color: #fff;
+    display:flex;
+    align-items: center;
+    padding: 5px 15px 0 15px;
+    /* background-color: red; */
+    /* margin-left: 250px; */
+    column-gap: 2rem;
+}
+.right__header .sign__in,
+.right__header .return__order,
+.right__header .cart {
+    cursor: pointer;
+    padding: 5px 12px;
+    color: white;
+    text-decoration: none;
+    
+}
+.right__header .sign__in:hover,
+.right__header .return__order:hover,
+.right__header .cart:hover {
+    border: 1px solid #fff;
+}
