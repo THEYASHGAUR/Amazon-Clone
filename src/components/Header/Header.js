@@ -4,8 +4,11 @@ import PlaceIcon from '@mui/icons-material/Place';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
 import {Link} from "react-router-dom";
+// import { selectTotalQTY } from '../../store/CartSlice';
+// import {useSelector} from 'react-redux';
 
 const Header = () => {
+  // const totalQty = useSelector(selectTotalQTY);
   return (
     <div className='header'>
       <div className="left__header">

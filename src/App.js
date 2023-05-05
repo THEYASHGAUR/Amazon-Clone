@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Cart from './components/Cart/Cart';
 import Location from './components/Location/Location';
-import Signup from './components/Signup/Singup';
+import Signup from './components/Signup/Signup';
 import Orders from './components/Orders/Orders.jsx';
 import { BrowserRouter as Main, Routes, Route } from "react-router-dom";
 
