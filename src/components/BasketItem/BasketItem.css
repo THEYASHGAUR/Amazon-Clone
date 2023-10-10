@@ -1,0 +1,34 @@
+
+
+.basket-item-wrapper{
+    display: flex;
+    border: 1px solid black;
+    margin: 1rem;
+}
+.basket_img{
+    padding: 1rem;
+}
+.desc-area{
+    display: block;
+}
+.description{
+    margin-bottom: 0.5em;
+    margin-top: 2rem;
+
+}
+.increase, .decrease{
+    background-color: red;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+}
+.remove-item{
+    background-color: #f49c17;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 5px;
+}

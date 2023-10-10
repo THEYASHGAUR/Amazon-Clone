@@ -7,7 +7,6 @@ const Product = ({ id, title, price, rating, image }) => {
     const dispatch = useDispatch();
 
     function  handleClick(){
-        console.log("added to cart this product");
         dispatch(setAddItemCart({ id, title, image, price }))
     }
 
